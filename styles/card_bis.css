@@ -1,0 +1,29 @@
+.card.bis{
+    width: 343px;
+    display: flex;
+}
+.bis .cardContent{
+
+    width: 169px;
+    padding: 16px 13px 12px 15px;
+
+}
+
+.bis .cardBoxImg{
+    border-radius: 20px 0 0 20px;
+    aspect-ratio: 137 / 144;
+}
+
+.bis .cardBoxImg{
+    width: 137px;
+}
+
+.bis .cardTitle{
+    margin: 4 auto 7 0;
+
+}
+
+.bis .cardTitle{
+    height: auto;
+    white-space: initial;
+}

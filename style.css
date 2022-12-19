@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Mobile */
+
+#activites{
+    display: flex;
+    flex-direction: column;
+}
+
+#activites .card {
+    /* height: 190px; */
+    /* width: 334px; */
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+
+}
+#activites .cardTitle{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    height: 15px;
+    margin-left: 19px;
+    margin-bottom: 21px;
+    margin-top: 20px;
+}
+#activites .cardImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#activites .cardBoxImg{
+    aspect-ratio: 334 / 134;
+    overflow: hidden;
+}
+
+
+/* tablette */
+@media screen and (min-width:500px) {
+    #activites{
+        flex-direction: row;
+    }
+
+    .cardBoxImg{
+        aspect-ratio: 182 / 211;
+    }
+}

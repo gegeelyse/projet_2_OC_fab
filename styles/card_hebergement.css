@@ -1,0 +1,74 @@
+
+.card {
+    /* height: 199px; */
+    width: 246px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background-color: #fff;
+
+}
+
+.cardBoxImg {
+    aspect-ratio: 246 / 124;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 20px 20px 0 0;
+    box-sizing: border-box;
+}
+
+.cardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.cardContent {
+    padding-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.cardTitle {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 4 auto 9 0;
+    height: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.cardPrice {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    height: 15px;
+
+}
+
+.cardRating {
+    margin-top: 9px;
+    height: 12px;
+}
+
+.stars {
+    height: 12px;
+    width: 12px;
+}
+
+
+@media screen and (min-width:500px) {
+    .cardBoxImg {
+        aspect-ratio: 246 / 124;
+    }
+}
