@@ -1,9 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* Mobile */
 
-#activites{
+#activites {
     display: flex;
     flex-direction: column;
 }
@@ -17,7 +16,8 @@
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 
 }
-#activites .cardTitle{
+
+#activites .cardTitle {
     font-family: Raleway;
     font-size: 16px;
     font-weight: 700;
@@ -30,13 +30,15 @@
     margin-bottom: 21px;
     margin-top: 20px;
 }
-#activites .cardImg{
+
+#activites .cardImg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top;
 }
-#activites .cardBoxImg{
+
+#activites .cardBoxImg {
     aspect-ratio: 334 / 134;
     overflow: hidden;
 }
@@ -44,11 +46,11 @@
 
 /* tablette */
 @media screen and (min-width:500px) {
-    #activites{
+    #activites {
         flex-direction: row;
     }
 
-    .cardBoxImg{
+    .cardBoxImg {
         aspect-ratio: 182 / 211;
     }
 }
